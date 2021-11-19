@@ -1,19 +1,12 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import "./App.css";
-import { InfraMap } from "./components/infra-map";
-import { Edge } from "./models/infra-models";
+import { TrainMap } from "./components/train-map/train-map";
 
-const edges: Edge[] = [];
-
-export const App = () => {
+function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <InfraMap edges={edges} />
-      </header>
+      <TrainMap />
     </div>
   );
-};
+}
 
 export default App;

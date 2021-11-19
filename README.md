@@ -2,11 +2,20 @@
 
 Trein kaart visualisatie
 
-- Op basis van database een grid ophalen
-- Grid via API beschikbaar stellen
-- Grid visualiseren in React frontend
-- TODO: uitbreiden vanaf hier...
+## Backend
+- TrainStations ophalen
+- Tracks tussen TrainStations opslaan
+  - Tijd van plek tot plek kunnen instellen
+- Snelste route berekenen
+
+## Frontend
+- Kaart visualiseert trainstations
+- Gebruiker kan lijnen trekken tussen stations
+  - Deze worden opgeslagen als Tracks
 
 
-Notes:
-- Beginnen met hoofdletter betekent public, kleine letter is private
+# Notes
+
+## Scopes in GoLang
+ - Beginnen met hoofdletter betekent public 
+ - kleine letter is private
